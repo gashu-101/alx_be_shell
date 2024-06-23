@@ -1,0 +1,5 @@
+cd /path/to/alx_be_shell/shell_permissions
+touch 0-iam_betty
+echo -e "su betty\n" > 0-iam_betty
+chmod +x 0-iam_betty
+tail -1 0-iam_betty | wc -c
