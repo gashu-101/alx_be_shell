@@ -1,9 +1,1 @@
-cd /path/to/alx_be_shell/shell_permissions
-
-echo -e "#!/bin/bash\nsu betty" > 0-iam_betty
-
-chmod +x 0-iam_betty
-
-# Verify the script
-wc -l 0-iam_betty   # Should output "2 0-iam_betty"
-wc -c 0-iam_betty   # Should output "21 0-iam_betty"
+su betty
